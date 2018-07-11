@@ -923,6 +923,8 @@
           }
         }
       }
+      e.stopPropagation();
+      e.preventDefault();
     }
 
     canvas.addEventListener('touchstart', touchstart);
