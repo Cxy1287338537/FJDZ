@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'hanzhen';
+  src: url(../fonts/hanzhen.ttf);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+canvas {
+  float: left;
+  background: rgb(40,40,40);
+  margin: 0 auto;
+}
